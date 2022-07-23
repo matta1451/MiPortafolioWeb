@@ -1,0 +1,86 @@
+@media only screen and (max-width:480px){
+    .cont{
+        z-index: 2;
+    }
+    .menu{
+        display: block;
+        cursor: pointer;
+    }
+    .nav{
+        display: none;
+    }
+    .nav .show{
+        display: block;
+    }
+    header nav ul li{
+        width: 100%;
+    }
+    header nav ul li a{
+        padding: 35px 0px;
+    }
+    header nav ul li a:hover{
+        background-color: rgba(173, 16, 152, 0.7);
+    }
+    #facebook, #linkedin, #github{
+        padding: 6px 15px;
+    }
+    .texto-banner h2{
+        font-size: 22px;
+    }
+    .texto-banner p{
+        font-size: 20px;
+    }
+    .final-banner hr{
+        width: 55%;
+    }
+    .cont-sub{
+        width: 300px;
+    }
+    .cont-sub{
+        margin: 0;
+    }
+    .cont-sub p{
+        font-size: 22px;
+    }
+    .cont-derecho img{
+        margin-top: 0px;
+    }
+    #especialidad div h2{
+        font-size: 36px;
+    }
+    .cont-especialidad{
+        margin: 0%;
+    }
+    .cont-especialidad img{
+        height: 200px;
+        display: block;
+        width: 300px;
+    }
+    .titulo-servicio{
+        width: 100%;
+    }
+    #titulo-portafolio{
+        width: 100%;
+        font-size: 28px;
+    }
+    #cuerpo-contactos{
+        display: block;
+        width: 100%;
+        position: unset;
+    }
+    #footer p{
+        text-align: justify;
+    }
+    
+    .titulo-testimonio, .cuerpo-testimonio{
+        width: 100%;
+        height: 100%;
+    }
+    .parte-testimonio img{
+        width: 100%;
+    }
+    .parte-testimonio p{
+        width: 100%;
+        margin-top: 15px;
+    }
+}

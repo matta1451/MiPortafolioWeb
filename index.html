@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles/estilos.css">
+    <link rel="stylesheet" href="styles/redes_sociales.css">
+    <link rel="stylesheet" href="styles/especialidad.css">
+    <link rel="stylesheet" href="styles/parallax.css">
+    <link rel="stylesheet" href="styles/servicios.css">
+    <link rel="stylesheet" href="styles/animate.css">
+    <link rel="stylesheet" href="styles/portafolio.css">
+    <link rel="stylesheet" href="styles/testimonio.css">
+    <link rel="stylesheet" href="styles/contactos.css">
+    <link rel="stylesheet" href="styles/carga.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/responsive-tablet.css">
+    <link rel="stylesheet" href="styles/responsive-smartphone.css">
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/bootstrap.min.css.map">
+    <script src="js/wow.min.js"></script>
+    <script>new WOW().init();</script>
+</head>
+<body>
+    <div id="cont-carga">
+        <div id="carga-final"></div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top fs-5">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#princi">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#mi">Sobre Mi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#servicios">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portafolio">Portafolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#testimonio">Testimonio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contactos">Contactos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <main class="principal">
+        <div class="banner" id="princi" align="center">
+            <div class="fondo-banner">
+                <div class="texto-banner wow fadeInDown">
+                    <div class="final-banner">
+                        <h2>CHRISTOPHER MATTA</h2>
+                        <hr>
+                        <p>Programador Backend</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <article class="cont-heredero">
+        <div class="cont-sub">
+            <div class="cont-izquierdo wow slideInLeft">
+                <h2 id="mi">SOBRE MI</h2>
+                <hr>
+                <p>Soy una persona talentosa y perseverante con sus objetivos. Actualmente, me encuentro estudiando 
+                    desarrollo de sistemas de información en IDAT. No cuento con experiencia laboral, pero soy muy 
+                    responsable y empeñoso con las tareas que se me asignan. Además, me gusta desempeñarme en la 
+                    lógica de negocio(backend) al formar parte del desarrollo de una página web y siempre que se me 
+                    complican las cosas, suelo investigar mucho para solucionar el problema, debido a que soy autodidacta. 
+                    Algunos de mis pasatiempos favoritos son: el deporte, los videojuegos, programar, entre otros.
+                </p>
+                <!--
+                    Soy estudiante de programación que disfruta el uso de la creatividad
+                    y lógica a la hora de planificar soluciones para diversos problemas.
+                    Además, me gusta desarrollar usando tecnologías como
+                    Java, MySQL, Spring-Boot, Spring MVC, Spring Data JPA, 
+                    Spring Security, Html, CSS, Bootstrap, git, entre otros.
+                -->
+                <br>
+                <p style="text-align: center;">
+                    <a href="doc/Christopher Matta Fernandez.pdf" target="_blank">Evaluar Mi CV</a>
+                </p>
+                <br>
+                <br>
+            </div>
+        </div>
+        <div class="cont-derecho wow slideInLeft">
+            <img src="img/imagen-perfil.jpeg" alt="">
+        </div>
+    </article>
+    <aside id="redes" class="wow slideInLeft">
+        <nav>
+            <ul>
+                <li>
+                    <a title="Facebook" id="facebook" href="https://web.facebook.com/profile.php?id=100008499468680" target="_blank">
+                        <i class="fa-brands fa-facebook-square" style="color: white;"></i>
+                    </a>
+                </li>
+                <li>
+                    <a title="Linkedin" id="linkedin"href="https://www.linkedin.com/in/christopher-matta-fernandez-b36b9320a/" target="_blank">
+                        <i class="fa-brands fa-linkedin" style="color: white;"></i>
+                    </a>
+                </li>
+                <li>
+                    <a title="GitHub" id="github" href="#" target="_blank">
+                        <i class="fa-brands fa-github" style="color: white;"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </aside>
+    <br>
+    <aside id="especialidad" class="wow bounceIn">
+        <div>
+            <h2>ESPECIALIDAD</h2>
+            <hr>
+            <br>
+            <div class="cont-especialidad">
+                <div class="li">
+                    <img src="img/bd.png" alt="">
+                    <div class="texto">
+                        <h3>Manejo de las Bases de Datos como MySQL</h3>
+                    </div>
+                </div>
+                <div class="li">
+                    <img src="img/equipo.png" alt="">
+                    <div class="texto">
+                        <h3>Trabajo en Equipo</h3>
+                    </div>
+                </div>
+                <div class="li">
+                    <img src="img/pc.png" alt="">
+                    <div class="texto">
+                        <h3>Manejo de Bootstrap con HTML y CSS</h3>
+                    </div>
+                </div>
+                <div class="li">
+                    <img src="img/java.png" alt="">
+                    <div class="texto">
+                        <h3>Programación con Spring-Boot y APIs REST</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </aside>
+    <br>
+    <article id="servicios">
+        <div id="fondo-negro">
+            <div id="contenedor-servicios">
+                <div>
+                    <h2 class="titulo-servicio" style="text-align: center; font-size: 40px">SERVICIOS</h2>
+                <hr class="titulo-servicio">
+                </div>
+                <div>
+                    <div class="conjunto">
+                        <div class="parte">
+                            <i class="fa-brands fa-java"></i>
+                            <h2 class="parte-titulo">Programación con Java</h2>
+                            <br>
+                            <p class="parte-cuerpo">
+                                Uso del lenguaje de programación java, para manipular grandiosos frameworks como Hibernate, 
+                                Spring-Boot, Spring Data JPA, Spring Security, Spring MVC entre otras herramientas.
+                            </p>
+                        </div>
+                        <div class="parte">
+                            <i class="fa-solid fa-database"></i>
+                            <h2 class="parte-titulo">Programación en Bases de Datos</h2>
+                            <br>
+                            <p class="parte-cuerpo">
+                                Uso de bases de datos relacionales como MySQL para la comunicación con las APIs o aplicaciones monolíticas 
+                                 y poder enviar información a las páginas web.
+                            </p>
+                        </div>
+                        <div class="parte">
+                            <i class="fa-brands fa-git-alt"></i>
+                            <h2 class="parte-titulo">Repositorios en Git, GitHub</h2>
+                            <br>
+                            <p class="parte-cuerpo">Para poder colaborar en equipo, creo un repositorio en GitHub acompañado de un 
+                                controlador de versiones como Git. De esta forma se garantiza un mejor trabajo en equipo.
+                            </p>
+                        </div>
+                        <div class="parte">
+                            <i class="fa-solid fa-people-group"></i>
+                            <h2 class="parte-titulo">Trabajo en equipo</h2>
+                            <br>
+                            <p class="parte-cuerpo">Motivación constante, debido al estrés que se pueda presentar al formar parte 
+                                del desarrollo de un proyecto.
+                            </p>
+                        </div>
+                        <div class="parte">
+                            <i class="fa-solid fa-syringe"></i>
+                            <h2 class="parte-titulo">Programación en Spring-Boot</h2>
+                            <br>
+                            <p class="parte-cuerpo">El desarrollo con spring-boot facilita mucho las configuraciones excesivas, por lo que
+                                permite un desarrollo más seguro, flexible y eficiente.
+                            </p>
+                        </div>                
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+    <aside id="portafolio">
+        <div id="titulo-portafolio">
+            <h2>PORTAFOLIO</h2>
+            <hr>
+            <br>
+        </div>
+        <div id="cuerpo-portafolio">
+            <div class="parte-portafolio">
+                <p>Aplicación Backend de Empleos</p>
+                <a title="Proyecto-Empleos" href="#"><img src="img/proyecto-empleos.png" alt=""></a>
+            </div>
+            <div class="parte-portafolio">
+                <p>Página Web</p>
+                <a title="Proyecto-Portafolio" href="#"><img src="img/portafolio.png" alt=""></a>
+            </div>
+        </div>
+    </aside>
+    <aside id="testimonio">
+        <div id="fondo-testimonio">
+            <div id="fondo-oscuro-testimonio">
+                <div class="testimonio">
+                    <div class="titulo-testimonio">
+                        <h2>TESTIMONIOS</h2>
+                        <hr><br>
+                    </div>
+                    <div class="cuerpo-testimonio">
+                        <div class="parte-testimonio">
+                            <img src="img/pallin.jpg" alt="">
+                            <h2>Miguel Pallín (Ingeniero y Programador Web)</h2>
+                            <p>Es un alumno con muchas ganas de aprender y 
+                                que siempre está atento en la clase y actualizándose 
+                                con los vídeos de aprendizaje, llegará a ser un 
+                                excelente desarrollador de páginas web.</p>
+                        </div>
+                        <div class="parte-testimonio">
+                            <img src="img/benigno.png" alt="">
+                            <h2>Benigno Garcia (Ingeniero de Sistemas)</h2>
+                            <p>Es un estudiante muy responsable, disruptivo con días ágiles para
+                                emprender proyectos de desarrollo de software web y aplicaciones 
+                                de escritorio utilizando las buenas prácticas de análisis, diseño 
+                                y programación de sistemas de información para empresas de servicios
+                                y/o producción.</p>
+                        </div>
+                    </div>
+                </div>
+                <br>
+            </div>
+        </div>
+    </aside>
+    <aside id="contactos">
+        <div id="fondo-contactos" la>
+            <div id="cuerpo-contactos">
+                <h2>Formulario de Contacto</h2>
+                <form action="">
+                    <div>
+                        <p>Nombres:</p>
+                        <input type="text" name="nombres" id="nombres" placeholder="Christopher Jermayn Matta Fernandez.">
+                    </div>
+                    <div>
+                        <p>Correo Electrónico:</p>
+                        <input type="email" name="correo" id="correo" placeholder="matta14_51@hotmail.com.">
+                    </div>
+                    <div>
+                        <p>Teléfono:</p>
+                        <input type="number" name="telefono" id="telefono" placeholder="912078186.">
+                    </div>
+                    <div>
+                        <p>Comentarios:</p>
+                        <textarea name="comentarios" id="comentarios" cols="30" rows="10" placeholder="Aquí puede escribirme sus sugerencias o alguna consulta sobre mi marca personal."></textarea>
+                    </div>
+                    <div id="submit">
+                        <button type="submit">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </aside>
+    <footer id="footer">
+        <div>
+            <p>Todos los derechos reservados &copy; a Christopher Jermayn Matta Fernandez. 
+                Esta página fue desarrollada por mi persona con la finalidad de demostrar 
+                mis conocimientos.</p>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/18ef77c387.js" crossorigin="anonymous"></script>
+    <script>
+        window.onload = function(){
+            let cont = document.getElementById("cont-carga");
+            cont.style.visibility = "hidden";
+            cont.style.opacity = "0";
+        }
+    </script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

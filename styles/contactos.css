@@ -1,0 +1,50 @@
+#contactos{
+    background-image: url("../img/IA.gif");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+}
+#fondo-contactos{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+}
+#cuerpo-contactos{
+    font-size: 24px;
+    color: white;
+    width: 50%;
+    margin: auto;
+    border: 5px solid white;
+}
+#cuerpo-contactos h2{
+    margin-top: 20px;
+    text-align: center;
+}
+#cuerpo-contactos form{
+    margin-top: 15px;
+    padding: 0px 10px;
+}
+#cuerpo-contactos input, textarea{
+    border: 2px solid black;
+    border-radius: 11px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    width: 100%;
+}
+#submit{
+    text-align: center;
+}
+#submit button{
+    padding: 10px 40px;
+    background-color: blueviolet;
+    transition: 0.5s ease-out;
+}
+#submit button:hover{
+    transition: 0.5s ease-out;
+    cursor: pointer;
+    color: white;
+    background-color: rgba(51, 7, 247, 0.5);
+}

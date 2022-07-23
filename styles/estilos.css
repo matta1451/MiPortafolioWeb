@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+}
+.menu{
+    color: white;
+    text-align: end;
+    font-size: 24px;
+    padding: 20px;
+    margin-top: 10px;
+    display: none;
+}
+.banner{
+    background: url("../img/fondito.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+.fondo-banner{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100vh;
+}
+.texto-banner{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.final-banner{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+}
+.final-banner hr{
+    width: 55%;
+    margin: 0;
+    color: white;
+}
+.texto-banner h2{
+    color: white;
+    font-size: 50px;
+    display: block;
+    white-space: nowrap;
+    width: 18ch;
+    border-right: 4px solid;
+    animation: typing 2.5s steps(18), blink .5s infinite step-end alternate;
+    overflow: hidden;
+    text-align: center;
+}
+.texto-banner p{
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: block;
+    white-space: nowrap;
+    width: 19ch;
+    border-right: 4px solid;
+    animation: typing 2.5s steps(19), blink .5s infinite step-end alternate;
+    overflow: hidden;
+}
+@keyframes typing{
+    from{width: 0;}
+}
+@keyframes blink{
+    50% {border-color: transparent}
+}
+.cont-heredero{
+    height: 100%;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.cont-sub{
+    margin-left: 30px;
+    width: 55%;
+}
+#mi{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 30px;
+}
+.cont-sub p{
+    margin-top: 10px;
+    line-height: 30px;
+    font-size: 20px;
+    text-align: justify;
+}
+.cont-sub a{
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 10px;
+    transition: 0.5s ease-in;
+}
+.cont-sub a:hover{
+    background-color: red;
+    color: white;
+}
+.cont-derecho{
+    width: 300px;
+    height: 300px;
+    margin-top: 35px;
+}
+.cont-derecho img{
+    width: 300px;
+    height: 300px;
+    border-radius: 11px;
+}

@@ -1,0 +1,30 @@
+@media only screen and (max-width:980px){
+    .menu{
+        display: block;
+    }
+    .nav{
+        display: none;
+    }
+    .texto-banner{
+        padding-bottom: 0px;
+    }
+    .texto-banner h2{
+        font-size: 35px;
+    }
+    .texto-banner p{
+        font-size: 22px;
+    }
+    .cont-sub p{
+        font-size: 24px;
+    }
+    #titulo-portafolio{
+        width: 100%;
+    }
+    .cont-especialidad img{
+        width: 300px;
+        height: 200px;
+    }
+    .parte-testimonio p{
+        width: 100%;
+    }
+}

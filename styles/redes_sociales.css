@@ -1,0 +1,32 @@
+#redes{
+    position: fixed;
+    left: 0%;
+    top: 40%;
+    z-index: 1;
+}
+#redes ul{
+    list-style: none;
+    padding-left: 0;
+}
+#facebook{
+    background-color: #183153;
+    padding: 10px 32px;
+    transition: 0.2s ease-in;
+    display: block;
+}
+#linkedin{
+    background-color: #0A65C2;
+    padding: 10px 32px;
+    transition: 0.2s ease-in;
+    display: block;
+}
+#github{
+    background-color: #212121;
+    padding: 10px 32px;
+    transition: 0.2s ease-in;
+    display: block;
+}
+#github:hover, #linkedin:hover, #facebook:hover{
+    background-color: black;
+    padding-right: 50px;
+}
