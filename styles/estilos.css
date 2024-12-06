@@ -53,7 +53,7 @@ body{
     font-size: 50px;
     display: block;
     white-space: nowrap;
-    width: 18ch;
+    width: 18.5ch;
     border-right: 4px solid;
     animation: typing 2.5s steps(18), blink .5s infinite step-end alternate;
     overflow: hidden;
@@ -66,7 +66,7 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: block;
     white-space: nowrap;
-    width: 19ch;
+    width: 16ch;
     border-right: 4px solid;
     animation: typing 2.5s steps(19), blink .5s infinite step-end alternate;
     overflow: hidden;
